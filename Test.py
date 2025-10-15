@@ -3,7 +3,7 @@ import datetime
 
 # ---- INPUT NUMBERS ----
 total_tasks = 47
-score_file = "scoreboard_progress.txt"
+score_file = "/tmp/scoreboard_progress.txt"
 designer_image = "Designer.png"
 
 def load_completed_tasks():
@@ -252,4 +252,5 @@ with btn2:
 st.markdown('</div>', unsafe_allow_html=True)  # Close scoreboard-buttons
 st.markdown('</div>', unsafe_allow_html=True)  # Close scoreboard-card
 st.markdown('</div>', unsafe_allow_html=True)  # Close centered-content
+
 
